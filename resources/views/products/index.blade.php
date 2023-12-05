@@ -7,6 +7,7 @@
                 <h2>Daftar Mobil Tersedia DI Rental Kita</h2>
             </div>
             <div class="pull-right">
+                <a class="btn btn-danger" href="{{ route('admin') }}"> Home</a>
                 <a class="btn btn-success" href="{{ route('products.create') }}"> Create New Product</a>
             </div>
         </div>
